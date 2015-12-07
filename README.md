@@ -21,39 +21,43 @@ Rest api for create, update and delete products.
 	1. User required to login through default user added in database to perform CRUD operations on Product
 	 ``` 
 	     API URL : http://localhost/store/?action=login
-         POST Parameters : username : mayur,
-	     username : mayur,
+         POST Parameters :
+	     username : mayur
 	     password : 123456
  	 ```
 
 	2. To add product into store
-         *** 
-	     http://localhost/store/?action=add
+	 ``` 
+	     API URL : http://localhost/store/?action=add
+         POST Parameters :
 	     name  : test
 	     price : 140 
-	 ***
+ 	 ```
 
 	3. To Edit product into store
-         *** 
-             http://localhost/store/?action=edit
-	     id    : 13
+	 ``` 
+	     API URL : http://localhost/store/?action=edit
+         POST Parameters :
+	     id  : 13
 	     name  : test
-	     price : 140
-	 ***
+	     price : 140 
+ 	 ```
 
 	4. To Delete product from store
-         *** 
-             http://localhost/store/?action=delete
+	 ``` 
+	     API URL : http://localhost/store/?action=delete
+         POST Parameters :
 	     id  : 13
-	 ***
+ 	 ```
 
 	5. To Search product into store
-         *** 
-             http://localhost/store/?action=search&limit=10
-	     name  : test   
-         ***
+	 ``` 
+	     API URL : http://localhost/store/?action=delete
+         POST Parameters :
+	     name  : test
+ 	 ```
 
 	6. To Log out from store
-         *** 
-             http://localhost/store/?action=logout 
-	 ***
+         ``` 
+             API URL : http://localhost/store/?action=logout 
+	 ```
