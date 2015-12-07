@@ -19,11 +19,11 @@ Rest api for create, update and delete products.
     ```
 ### User manual 
 	1. User required to login through default user added in database to perform CRUD operations on Product
-	 *** 
-	     http://localhost/store/?action=login
-             username : mayur, 
-	     password : 123456
- 	 ***
+	 ``` 
+	     API URL : http://localhost/store/?action=login
+             POST Parameters : username : mayur, 
+	                       password : 123456
+ 	 ```
 
 	2. To add product into store
          *** 
