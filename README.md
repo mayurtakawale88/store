@@ -11,7 +11,7 @@ Rest api for create, update and delete products.
   3. Changes required to be done in config.php. Will need to change the default database credentials.
     
     ```
-      	define("DB_NAME","store");
+      define("DB_NAME","store");
 	define("DB_USERNAME","root");
 	define("DB_PASSWORD","root");
 	define("DB_SERVER","localhost");
