@@ -1,9 +1,10 @@
 # REST api
 
 Rest api for create, update and delete products into sample store application. Only authenticated user can do this all operations. Default username and password for authentication as follows.
+    
     ```
-     Username : mayur
-     Password : 123456
+    Username : mayur
+	Password : 123456
     ```
 
 ### Set up instructions
