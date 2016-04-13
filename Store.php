@@ -1,8 +1,21 @@
 <?php
+/**
+* Class is generated to provide API for simple Store to perform all CRUD operations with proper authentication.
+*.Below are list of API provided for sample store application
+* Add product into store
+* Edit product
+* Delete Product
+* Search Product
+* 
+* @author Mayur 
+*/
 
 include_once(dirname(__FILE__).DIRECTORY_SEPARATOR.'Db.php');
 
 Class Store {
+	/**
+	* To hold Database connection
+	*/
 	private $_connection = null;
 
 	public function __construct() {

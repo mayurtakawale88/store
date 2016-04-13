@@ -1,7 +1,11 @@
 # REST api
 
-Rest api for create, update and delete products.
- 
+Rest api for create, update and delete products into sample store application. Only authenticated user can do this all operations. Default username and password for authentication as follows.
+    ```
+     Username : mayur
+     Password : 123456
+    ```
+
 ### Set up instructions
   1. Clone this project in your webserver's root directory
   2. Creating Database and required tables: 
@@ -52,7 +56,7 @@ Rest api for create, update and delete products.
 
 	5. To Search product into store
 	 ``` 
-	     API URL : http://localhost/store/?action=delete
+	     API URL : http://localhost/store/?action=search
          POST Parameters :
 	     name  : test
  	 ```
