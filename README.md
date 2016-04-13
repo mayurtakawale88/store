@@ -3,10 +3,12 @@
 Rest api for create, update and delete products into sample store application. Only authenticated user can do this all operations. Default username and password for authentication as follows.
     
     ```
-    Username : mayur
-	Password : 123456
+    define("DB_NAME","store");
+	define("DB_USERNAME","root");
+	define("DB_PASSWORD","root");
+	define("DB_SERVER","localhost");
+	define("DB_PORT","3306");
     ```
-
 ### Set up instructions
   1. Clone this project in your webserver's root directory
   2. Creating Database and required tables: 
